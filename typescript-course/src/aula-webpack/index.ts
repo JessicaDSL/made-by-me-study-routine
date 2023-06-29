@@ -1,1 +1,1 @@
-console.log('oieee');
+import './module'
