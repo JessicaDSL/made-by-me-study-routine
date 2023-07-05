@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="input-forms">
+        <label name="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Insira um nome" />
+        <span class="error-message">Mensagem de erro</span>
+      </div>
+
+      <div class="input-forms">
+        <label name="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Insira um email"
+        />
+        <span class="error-message">Mensagem de erro</span>
+      </div>
+
+      <div class="input-forms">
+        <label name="password">Insira a senha:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Insira uma senha"
+        />
+        <span class="error-message">Mensagem de erro</span>
+      </div>
+
+      <div class="input-forms">
+        <label name="password-confirm">Confirme a senha:</label>
+        <input
+          type="password"
+          name="password-confirm"
+          id="password-confirm"
+          placeholder="Digite a senha novamente"
+        />
+        <span class="error-message">Mensagem de erro</span>
+      </div>
+
+      <input type="submit" value="ENVIAR" id="button_submit" />
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

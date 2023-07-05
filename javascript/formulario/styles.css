@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+form .error-message {
+  color: red;
+  display: none;
+}
+
+form .show-error-message .error-message {
+  display: block;
+}
