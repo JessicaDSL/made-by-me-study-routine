@@ -12,7 +12,7 @@ form.addEventListener('submit', function(event) {
   checkName(user);
   checkEmail(email);
   checkPassword(password);
-  checkConfirmPassword(password, confirmPassword)
+  checkConfirmPassword(password, confirmPassword);
 })
 
 function checkName(input) {
@@ -46,4 +46,9 @@ function showMessageErro(input, message) {
   inputFields.classList.add(SHOW_ERROR_MESSAGE)
 }
 
+const checkbox = document.getElementById("checkbox")
 
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+  form.classList.toggle("dark");
+})
