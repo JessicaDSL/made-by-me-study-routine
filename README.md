@@ -1,4 +1,4 @@
-# made-by-me-study-routine
+#  Made it myself 💕
 
 
 ### 🚀 Bem-vindo ao meu repositório cheio de projetos incríveis! 
