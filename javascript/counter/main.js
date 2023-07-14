@@ -4,10 +4,6 @@ const btnReset = document.querySelector(".reset");
 const btnIncrease = document.querySelector(".increase");
 let count = Number(counter.innerHTML)
 
-//count == 0 ? counter.style.color = 'blue' :  counter.style.color = 'red'
-
-
-
 function decreaseCounter() {
   if( count < 0 ) counter.style.color = 'red'
   counter.innerHTML = count - 1
@@ -29,7 +25,6 @@ function increaseCounter() {
   return count++
 }
 
-console.log(count);
 btnDecrease.addEventListener('click', decreaseCounter);
 btnReset.addEventListener('click', resetCounter);
 btnIncrease.addEventListener('click', increaseCounter);
