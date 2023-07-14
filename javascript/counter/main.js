@@ -7,8 +7,6 @@ let count = Number(counter.innerHTML)
 function decreaseCounter() {
   if( count < 0 ) counter.style.color = 'red'
   counter.innerHTML = count - 1
-  
-  //count < 0 ? counter.style.color = 'blue' :  counter.style.color = 'red'
   return count--
 }
 
