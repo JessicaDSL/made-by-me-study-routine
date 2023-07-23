@@ -1,0 +1,8 @@
+@import 'node_modules/tailwindcss/base';
+
+@tailwind base;
+ 
+@tailwind components;
+
+@tailwind utilities;
+
